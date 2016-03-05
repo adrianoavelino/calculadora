@@ -1,0 +1,35 @@
+/*body{
+  background-color:red;
+}*/
+.calculadora{
+  background-color:#c2c2c2;
+}
+
+.tela{
+  background-color:#c2c2c2;
+  border:1px solid #000;
+  padding: 25px;
+  width: 100%;
+}
+.btn{
+  padding: 20px;
+  margin:2px;
+}
+
+.table{
+  max-width:150px;
+  background-color:#333;
+}
+
+/*tira borda da classe table*/
+.table>tbody>tr>td,
+.table>tbody>tr>th
+{
+  border-top: 1px solid #333;
+}
+
+
+
+@media (min-width: @screen-xs-max) {
+  background-color:red;
+}
